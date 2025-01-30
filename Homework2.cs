@@ -38,20 +38,20 @@ class Program
     string numC = Console.ReadLine();   
     int num3 = Convert.ToInt16(numC);
 
-    if (num1 > num2){       //comparison of the three numbers
-        if (num1 > num3){
-            Console.WriteLine($"The largest number is:  {num1}");
+    if (num1 < num2){       //comparison of the three numbers
+        if (num1 < num3){
+            Console.WriteLine($"The smallest number is:  {num1}");
         }
        else {
-           Console.WriteLine($"The largest number is:  {num3}");
+           Console.WriteLine($"The smallest number is:  {num3}");
        }
     }
     else {
-        if (num2 > num3){
+        if (num2 < num3){
            Console.WriteLine($"The largest number is:  {num2}");
        }
        else{
-           Console.WriteLine($"The largest number is:  {num3}");
+           Console.WriteLine($"The smallest number is:  {num3}");
        }
     }
 
