@@ -48,7 +48,7 @@ class Program
     }
     else {
         if (num2 < num3){
-           Console.WriteLine($"The largest number is:  {num2}");
+           Console.WriteLine($"The smallest number is:  {num2}");
        }
        else{
            Console.WriteLine($"The smallest number is:  {num3}");
